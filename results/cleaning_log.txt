@@ -1,0 +1,4 @@
+duplicate re-imports removed: 0 (same customer+sku+channel+message within 3 days)
+legacy resolved_at shifted +5:30 (UTC->IST) on 4052 rows
+rows before 2025-01-01 (outside agreed window, kept but excluded from charts): 139
+rows with resolution before first response after TZ fix: 0 (set handle_hours=NaN)

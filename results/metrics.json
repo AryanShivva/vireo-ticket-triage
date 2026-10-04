@@ -1,0 +1,121 @@
+{
+  "rows_total": 11780,
+  "rows_in_window": 11641,
+  "note_label_coverage": 0.8248,
+  "model_oof_agreement_with_notes": 0.9988,
+  "tag_matches_true_category": 0.7072,
+  "other_tag_rows": 1622,
+  "share_by_tag_team": {
+    "Chat Frontline": 26.0,
+    "Billing": 20.8,
+    "Logistics": 16.4,
+    "Email Frontline": 15.5,
+    "Returns Desk": 9.0,
+    "Voice Frontline": 7.7,
+    "Escalations & Warranty": 4.5
+  },
+  "share_by_true_team": {
+    "Logistics": 28.8,
+    "Chat Frontline": 20.3,
+    "Billing": 18.2,
+    "Email Frontline": 12.1,
+    "Returns Desk": 9.9,
+    "Voice Frontline": 6.2,
+    "Escalations & Warranty": 4.6
+  },
+  "billing_tagged": 2425,
+  "billing_tagged_not_billing": 1060,
+  "billing_misroute_share": 0.4371,
+  "billing_misroute_mix": {
+    "Logistics": 941,
+    "Returns Desk": 115,
+    "Frontline": 4
+  },
+  "misroute_rates": {
+    "transfers": [
+      0.814,
+      0.095
+    ],
+    "breach": [
+      0.336,
+      0.089
+    ],
+    "repeat": [
+      0.058,
+      0.009
+    ],
+    "csat": [
+      2.44,
+      3.55
+    ],
+    "median_resolution_h": [
+      48.4,
+      0.8
+    ]
+  },
+  "cost_per_misrouted_ticket_inr": {
+    "extra_transfers": 219,
+    "extra_breach_credit": 87,
+    "extra_repeat_contact": 11,
+    "total": 317
+  },
+  "h1_2026_billing_tagged_per_quarter": 454,
+  "h1_2026_billing_misrouted_per_quarter": 188,
+  "target_misroute_share": 0.1,
+  "avoided_misroutes_per_quarter": 142,
+  "saving_per_quarter_inr_on_export": 45113,
+  "export_tickets_per_week_h1_2026": 181.3,
+  "scale_factor_to_650_per_week": 3.59,
+  "saving_per_quarter_inr_at_650_per_week": 161956,
+  "load_per_agent_week_h1_2026": {
+    "Billing": {
+      "agents": 4,
+      "resolved_per_agent_week": 6.68,
+      "true_owned_per_agent_week": 7.89
+    },
+    "Chat Frontline": {
+      "agents": 15,
+      "resolved_per_agent_week": 3.39,
+      "true_owned_per_agent_week": 2.69
+    },
+    "Email Frontline": {
+      "agents": 7,
+      "resolved_per_agent_week": 3.77,
+      "true_owned_per_agent_week": 3.31
+    },
+    "Escalations & Warranty": {
+      "agents": 6,
+      "resolved_per_agent_week": 1.74,
+      "true_owned_per_agent_week": 1.42
+    },
+    "Logistics": {
+      "agents": 5,
+      "resolved_per_agent_week": 7.45,
+      "true_owned_per_agent_week": 9.65
+    },
+    "Returns Desk": {
+      "agents": 3,
+      "resolved_per_agent_week": 5.45,
+      "true_owned_per_agent_week": 5.58
+    },
+    "Voice Frontline": {
+      "agents": 4,
+      "resolved_per_agent_week": 3.32,
+      "true_owned_per_agent_week": 3.21
+    }
+  },
+  "billing_tickets_resolved_by_logistics_agents": 795,
+  "sla_breach_rate_all": 0.111,
+  "sla_credits_inr_all_window": 452200,
+  "refund_and_replacement_same_ticket": 2,
+  "refund_and_replacement_value_inr": 7249,
+  "handle_hours_median_by_assigned_team": {
+    "Billing": 1.9,
+    "Chat Frontline": 0.5,
+    "Email Frontline": 3.3,
+    "Escalations & Warranty": 121.6,
+    "Logistics": 25.8,
+    "Returns Desk": 48.4,
+    "Voice Frontline": 1.0
+  }
+}
